@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MARİNE_TAKİPModelStoreContainer" CdmEntityContainer="MARİNE_TAKİPEntities1">
+    <EntitySetMapping Name="teknes">
+      <EntityTypeMapping TypeName="MARİNE_TAKİPModel.tekne">
+        <MappingFragment StoreEntitySet="tekne">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="tekne_ad" ColumnName="tekne_ad" />
+          <ScalarProperty Name="marine" ColumnName="marine" />
+          <ScalarProperty Name="konum" ColumnName="konum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
